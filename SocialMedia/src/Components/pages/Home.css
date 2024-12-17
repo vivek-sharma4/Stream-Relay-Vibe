@@ -1,0 +1,100 @@
+/* Home.css */
+
+/* General styles for the home page */
+.home {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.home p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* Container for features section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.feature {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.feature h3 {
+  font-size: 24px;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Hover effect for features */
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+/* Button styles */
+button {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.profile-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.posts-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.login-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.register-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+/* Button hover effects */
+button:hover {
+  transform: scale(1.05);
+}
+
+.profile-btn:hover {
+  background-color: #0056b3;
+}
+
+.posts-btn:hover {
+  background-color: #218838;
+}
+
+.login-btn:hover {
+  background-color: #e0a800;
+}
+
+.register-btn:hover {
+  background-color: #138496;
+}

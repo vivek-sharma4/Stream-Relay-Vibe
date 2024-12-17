@@ -1,0 +1,50 @@
+/* Layout.css */
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  margin-top: 60px; /* Space for the fixed header */
+  margin-bottom: 60px; /* Space for the fixed footer */
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header nav a,
+.footer nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header nav a:hover,
+.footer nav a:hover {
+  text-decoration: underline;
+}
