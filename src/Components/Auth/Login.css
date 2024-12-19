@@ -1,0 +1,103 @@
+/* Login.css */
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Modern gradient background */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.Login h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  display: block;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border: 2px solid #4caf50; /* Highlight color on focus */
+  background: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4caf50; /* Green button */
+  color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #43a047;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.error {
+  font-size: 0.9rem;
+  color: #ff3d00;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .Login h2 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}

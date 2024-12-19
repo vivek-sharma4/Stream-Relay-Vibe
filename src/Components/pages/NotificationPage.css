@@ -1,0 +1,38 @@
+.notification-page {
+    padding: 20px;
+  }
+  
+  .notification-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .notification {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notification.unread {
+    background-color: #f0f8ff;
+  }
+  
+  .notification.read {
+    background-color: #e0e0e0;
+  }
+  
+  .notification button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .notification button:hover {
+    background-color: #45a049;
+  }
+  

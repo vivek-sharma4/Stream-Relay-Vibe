@@ -1,0 +1,71 @@
+/* General Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--dark-color); /* Replace with your desired color */
+  color: var(--light-color); /* Replace with your desired color */
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; /* Make the logo circular */
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--primary-color); /* Add a vibrant color to make it stand out */
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.logo span:hover {
+  color: var(--secondary-color); /* Change the color on hover */
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  font-size: 16px;
+  color: var(--light-color); /* Adjust for your theme */
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--primary-color); /* Highlight link on hover */
+  color: var(--dark-color); /* Change text color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

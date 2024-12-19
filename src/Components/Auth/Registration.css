@@ -1,0 +1,124 @@
+/* Registration.css */
+
+.Register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #3a7bd5, #3a6073); /* Modern gradient background */
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.Register h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  display: block;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+}
+
+input:focus {
+  border: 2px solid #ff9800;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4caf50;
+  color: #fff;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #43a047;
+  transform: translateY(-3px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button[type="button"] {
+  background: #ff9800;
+}
+
+button[type="button"]:hover {
+  background: #e68900;
+}
+
+.error {
+  color: #ff3d00;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+p a {
+  color: #ff9800;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .Register h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
