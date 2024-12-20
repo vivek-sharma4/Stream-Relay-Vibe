@@ -1,0 +1,46 @@
+.post-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  color: #240870;
+}
+
+.post {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #970707;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.post p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.post-actions .link-action {
+  text-decoration: none;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.post-actions .link-action:hover {
+  text-decoration: underline;
+}

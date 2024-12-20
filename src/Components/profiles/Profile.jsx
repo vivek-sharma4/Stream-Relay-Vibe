@@ -1128,7 +1128,7 @@ const Profile = () => {
           console.error('Error fetching user data:', error);
         });
 
-      axios.get(`http://localhost:3000/posts?authorId=${userId}`)
+      axios.get(`http://localhost:3000/posts?username=${userId}`)
         .then(response => {
           setPosts(response.data);
           setLoading(false);
@@ -1180,7 +1180,7 @@ const Profile = () => {
       return;
     }
 
-    const newPost = { content: newPostContent, authorId: userId };
+    const newPost = { content: newPostContent, username: userId };
 
     axios.post('http://localhost:3000/posts', newPost)
       .then(response => {

@@ -48,87 +48,6 @@
       "id": "6683"
     },
     {
-      "id": "4706",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "3a47",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "127b",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "4412",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "a042",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "7d33",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "4b42",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "700a",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "dd66",
-      "name": "vivek",
-      "email": "vivek2@gmail.com",
-      "phone": "9608300650",
-      "username": "vivek_sh",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
       "name": "Sharma",
       "email": "sharma@gmail.com",
       "username": "Sharma",
@@ -137,170 +56,32 @@
       "id": "adc1"
     },
     {
-      "id": "32da",
-      "name": "Sharma",
-      "email": "sharma@gmail.com",
-      "phone": "9738726681",
-      "username": "Sharma",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "52e9",
-      "name": "Sharma",
-      "email": "sharma@gmail.com",
-      "phone": "9608300650",
-      "username": "Sharma",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "6808",
-      "name": "Sharma",
-      "email": "sharma@gmail.com",
-      "phone": "9608300650",
-      "username": "Sharma",
-      "password": "1234",
-      "confirmPassword": "1234"
-    },
-    {
-      "id": "5b7d",
-      "userId": "6808",
-      "name": "Sharma",
-      "email": "sharma@gmail.com",
-      "phone": "9608300650",
-      "username": "Sharma",
-      "profilePicture": ""
-    },
-    {
       "name": "Ramu",
       "email": "ramu@gmail.com",
       "username": "ramu",
       "phone": "8974561230",
       "profilePicture": "data:image/jpeg;base64,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",
       "id": "5d28"
-    },
-    {
-      "id": "76d6",
-      "userId": "5d28",
-      "name": "Ramu",
-      "email": "ramu@gmail.com",
-      "phone": "8974561230",
-      "username": "ramu",
-      "profilePicture": ""
     }
   ],
   "posts": [
     {
-      "id": "232d",
-      "content": "Hello Every",
-      "authorId": "1"
-    },
-    {
-      "id": "e568",
-      "content": "Gud AfterNoon",
-      "authorId": "2"
-    },
-    {
-      "id": "08ca",
-      "content": "GUd nyt",
-      "authorId": "2"
-    },
-    {
-      "id": "aa51",
-      "content": "Helloooo",
-      "authorId": "1"
-    },
-    {
-      "id": "d8f3",
-      "content": "Hyy i'm Rohit",
-      "authorId": "7f9a"
-    },
-    {
-      "id": "1279",
-      "content": "Hello Everyone",
-      "authorId": "adc1"
-    },
-    {
-      "id": "64b9",
-      "content": "I'm vivek",
-      "authorId": "adc1"
-    },
-    {
-      "id": "9f12",
-      "content": "Hyy ",
-      "authorId": "6683"
-    },
-    {
-      "id": "f064",
-      "content": "Hello good morning",
-      "authorId": "5d28"
+      "id": "c2c8",
+      "content": "Gud Nyt",
+      "username": "6683",
+      "likes": 1,
+      "comments": [
+        "Hyy"
+      ]
     }
   ],
-  "comments": [],
-  "likes": [],
   "messages": [
-    {
-      "id": "1",
-      "sender": "user1",
-      "receiver": "user2",
-      "message": "Hello user2!",
-      "timestamp": "2024-06-16T10:00:00"
-    },
-    {
-      "id": "2",
-      "sender": "user2",
-      "receiver": "user1",
-      "message": "Hi user1! How are you?",
-      "timestamp": "2024-06-16T10:05:00"
-    },
-    {
-      "id": "3",
-      "sender": "user3",
-      "receiver": "user2",
-      "message": "Hello user2, this is user3!",
-      "timestamp": "2024-06-16T10:10:00"
-    },
     {
       "sender": ":currentUser",
       "receiver": ":receiver",
       "message": "Hyy",
       "timestamp": "2024-12-17T18:00:32.504Z",
       "id": "2060"
-    },
-    {
-      "id": "f89d",
-      "message": "hyy",
-      "timestamp": "2024-12-17T20:13:29.973Z"
-    },
-    {
-      "id": "7772",
-      "message": "hyy",
-      "timestamp": "2024-12-18T07:18:46.261Z"
-    },
-    {
-      "id": "c03e",
-      "message": "Hyy",
-      "timestamp": "2024-12-18T11:41:58.601Z"
-    },
-    {
-      "id": "39d0",
-      "sender": ":currentUser",
-      "receiver": ":receiver",
-      "message": "Hello",
-      "timestamp": "2024-12-18T11:44:49.831Z"
-    },
-    {
-      "id": "097a",
-      "sender": ":currentUser",
-      "receiver": ":receiver",
-      "message": "gud boy",
-      "timestamp": "2024-12-18T11:45:29.933Z"
-    },
-    {
-      "id": "b13d",
-      "message": "Bolo",
-      "timestamp": "2024-12-18T11:57:45.115Z"
     },
     {
       "id": "bfc3",
@@ -310,14 +91,107 @@
       "timestamp": "2024-12-18T12:01:15.488Z"
     },
     {
-      "id": "99ea",
-      "message": "Rohit",
-      "timestamp": "2024-12-18T12:03:37.126Z"
+      "id": "2069",
+      "sender": "currentUser",
+      "receiver": "Sravya",
+      "message": "whats up",
+      "timestamp": "2024-12-19T13:41:31.128Z"
     },
     {
-      "id": "e274",
-      "message": "hiiiiiiiiiiiiiiiiiiiii",
-      "timestamp": "2024-12-18T12:05:04.947Z"
+      "id": "b2be",
+      "sender": "currentUser",
+      "receiver": "Sravya",
+      "message": "Hyy",
+      "timestamp": "2024-12-19T14:28:57.977Z"
+    },
+    {
+      "id": "1734627046721",
+      "message": "hyy this is sravya",
+      "timestamp": "2024-12-19T16:50:46.721Z"
+    },
+    {
+      "id": "1734627099947",
+      "message": "hyy this is vivek",
+      "timestamp": "2024-12-19T16:51:39.947Z"
+    },
+    {
+      "id": "1734627470026",
+      "message": "Hyy this is vk",
+      "timestamp": "2024-12-19T16:57:50.026Z"
+    },
+    {
+      "id": "1734627702966",
+      "timestamp": "2024-12-19T17:01:42.966Z"
+    },
+    {
+      "id": "1734629301620",
+      "senderId": null,
+      "receiverId": null,
+      "message": "hlo",
+      "timestamp": "2024-12-19T17:28:21.620Z"
+    },
+    {
+      "id": "2ade",
+      "sender": "currentUser",
+      "receiver": "Sravya",
+      "message": "okay",
+      "timestamp": "2024-12-19T18:12:09.440Z"
+    },
+    {
+      "id": "20ec",
+      "sender": "currentUser",
+      "receiver": "vivek",
+      "message": "hyy",
+      "timestamp": "2024-12-19T18:13:42.719Z"
+    },
+    {
+      "id": "cfd8",
+      "sender": "currentUser",
+      "receiver": "Sravya",
+      "message": "hlo",
+      "timestamp": "2024-12-19T18:50:24.570Z"
+    },
+    {
+      "id": "ad75",
+      "sender": "currentUser",
+      "receiver": "Sravya",
+      "message": "hyy",
+      "timestamp": "2024-12-19T18:51:15.245Z"
+    },
+    {
+      "id": "1df7",
+      "sender": "Alice",
+      "receiver": "Sravya",
+      "message": "hyy",
+      "timestamp": "2024-12-19T18:59:23.091Z"
+    },
+    {
+      "id": "b0dc",
+      "sender": "currentUser",
+      "receiver": "Rohit",
+      "message": "hyy",
+      "timestamp": "2024-12-19T19:16:02.523Z"
+    },
+    {
+      "id": "2b94",
+      "sender": "currentUser",
+      "receiver": "Sravya",
+      "message": "hyy",
+      "timestamp": "2024-12-19T19:22:27.350Z"
+    }
+  ],
+  "friendRequests": [
+    {
+      "id": "1",
+      "fromUserId": 2,
+      "fromUserName": "Vivek",
+      "toUserId": 1
+    },
+    {
+      "id": "2",
+      "fromUserId": 3,
+      "fromUserName": "Rohit",
+      "toUserId": 1
     }
   ]
 }

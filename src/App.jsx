@@ -95,13 +95,20 @@ import Profile from './Components/profiles/Profile';
 import Login from './Components/Auth/Login';
 import Home from './Components/pages/Home';
 import PostList from './Components/pages/PostList';
-import NotificationPage from './Components/pages/NotificationPage'; 
+import NotificationPage from './Components/pages/NotificationPage';
 import ChatPage from './Components/Chat/ChatPage';
 import PostComponent from './Components/pages/Post';
+// import FriendRequestPage from './Components/pages/FrientRequestPage';
 import './App.css';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
+
+  // Mock current user
+  const currentUser = {
+    id: 1, // Unique identifier for the logged-in user
+    name: 'John Doe', // Example name
+  };
 
   useEffect(() => {
     const fetchPosts = async () => {
@@ -110,7 +117,7 @@ const App = () => {
         const data = await response.json();
         setPosts(data);
       } catch (error) {
-        console.error("Error fetching posts:", error);
+        console.error('Error fetching posts:', error);
       }
     };
 
@@ -121,19 +128,24 @@ const App = () => {
     <Router>
       <div id="root">
         <Header />
-        {/* <main className="main-content"> */}
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/posts" element={<PostList posts={posts} />} />
-            <Route path="/notifications" element={<NotificationPage />} />
-            {/* <Route path="/chat/:currentUser/:receiver" element={<ChatPage />} /> */}
-            <Route path='/Chatpage' element={<ChatPage />} />
-            <Route path="/posts" element={<PostComponent />} />
-          </Routes>
-        {/* </main> */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          {/* <Route
+            path="/friend-requests"
+            element={<FriendRequestPage currentUserId={currentUser.id} />}
+          /> */}
+          <Route path="/profile" element={<Profile user={currentUser} />} />
+          <Route path="/posts" element={<PostList posts={posts} />} />
+          <Route path="/notifications" element={<NotificationPage />} />
+          <Route
+          path="/chat/:receiver"
+          element={<ChatPage currentUser={currentUser} receiver="user2" />}
+        />
+          <Route path="/Chatpage" element={<ChatPage />} />
+          <Route path="/posts" element={<PostComponent />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
@@ -141,6 +153,7 @@ const App = () => {
 };
 
 export default App;
+
 
 
 
