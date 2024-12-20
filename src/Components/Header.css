@@ -1,11 +1,14 @@
-/* General Header Styles */
+body{
+  height: 50vx;
+  /* background-color: black; */
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: var(--dark-color); /* Replace with your desired color */
-  color: var(--light-color); /* Replace with your desired color */
+  background-color: var(--dark-color); 
+  color: var(--light-color); 
   border-bottom: 2px solid var(--primary-color);
 }
 
@@ -20,22 +23,21 @@
 .logo-image {
   height: 50px;
   width: 50px;
-  border-radius: 50%; /* Make the logo circular */
+  border-radius: 50%; 
 }
 
 .logo span {
   font-size: 20px;
   font-weight: bold;
-  color: var(--primary-color); /* Add a vibrant color to make it stand out */
+  color: var(--primary-color); 
   text-transform: uppercase;
   transition: color 0.3s ease;
 }
 
 .logo span:hover {
-  color: var(--secondary-color); /* Change the color on hover */
+  color: var(--secondary-color); 
 }
 
-/* Navigation Styles */
 nav {
   display: flex;
   gap: 15px;
@@ -43,7 +45,7 @@ nav {
 
 nav a {
   font-size: 16px;
-  color: var(--light-color); /* Adjust for your theme */
+  color: var(--light-color); 
   text-decoration: none;
   font-weight: 500;
   padding: 5px 10px;
@@ -52,11 +54,10 @@ nav a {
 }
 
 nav a:hover {
-  background-color: var(--primary-color); /* Highlight link on hover */
-  color: var(--dark-color); /* Change text color on hover */
+  background-color: var(--primary-color); 
+  color: var(--dark-color); 
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
